@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette: quarried from the subject — stone, grout, clay, veining */
+  --color-stone-50: #FAF8F4;
+  --color-stone-100: #F2EDE3;
+  --color-stone-200: #E6DECE;
+  --color-stone-300: #D2C5AD;
+  --color-stone-400: #B3A488;
+  --color-stone-500: #8C7E64;
+
+  --color-basalt-900: #1C1B19;
+  --color-basalt-800: #232220;
+  --color-basalt-700: #322F2B;
+  --color-basalt-600: #4A4640;
+
+  --color-clay-500: #C2603D;
+  --color-clay-600: #A84F30;
+  --color-clay-400: #D98257;
+
+  --color-moss-500: #5B6B4F;
+  --color-moss-600: #495640;
+
+  --color-slate-veining: #7C8488;
+
+  --font-display: "Fraunces", "Iowan Old Style", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --shadow-lift: 0 18px 40px -12px rgba(28, 27, 25, 0.25);
+  --shadow-soft: 0 8px 24px -8px rgba(28, 27, 25, 0.18);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    background: var(--color-stone-50);
+    color: var(--color-basalt-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background: var(--color-clay-400);
+    color: var(--color-stone-50);
+  }
+}
+
+@layer utilities {
+  .veining-divider {
+    position: relative;
+  }
+  .veining-divider::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(90deg, transparent 0%, var(--color-slate-veining) 50%, transparent 100%);
+    height: 1px;
+    opacity: 0.35;
+  }
+
+  .glaze-sheen {
+    position: relative;
+    overflow: hidden;
+  }
+  .glaze-sheen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(115deg, transparent 0%, rgba(255,255,255,0.55) 50%, transparent 100%);
+    transform: skewX(-18deg);
+    transition: left 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+    pointer-events: none;
+  }
+  .glaze-sheen:hover::before {
+    left: 150%;
+  }
+
+  .grain {
+    background-image: radial-gradient(circle, rgba(28,27,25,0.05) 1px, transparent 1px);
+    background-size: 14px 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
