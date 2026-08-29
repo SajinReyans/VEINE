@@ -1,35 +1,4 @@
 #
-* Scroll-triggered content reveals
-* Animated category navigati
-
-The checkout experience is divided into multiple stages:
-
-1. Customer information
-2. Delivery address
-3. Product review
-4. Shipping selection
-5. Order summary
-**Order Placed → Confirmed → Processing → Dispatched → In Transit → Delivered**
-
-The current demo simulates these states on the frontend.
-
-A production version can connect the timeline to real logistics events and seller fulfillment updates.
-
----
-
-# 🔐 Buyer Authentication
-
-The prototype includes a mobile-first authentication experience inspired by OTP-based login systems.
-
-The flow includes:
-
-* Mobile number entry
-* OTP-style verification interface
-* User information
-* Delivery location capture
-* Account creation
-* Login state
-
 The current implementation is visual only and does not perform real authentication.
 
 A production version can integrate:
