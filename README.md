@@ -1,34 +1,3 @@
-#
-The current implementation is visual only and does not perform real authentication.
-
-A production version can integrate:
-
-* Firebase Authentication
-* Auth0
-* Supabase Auth
-* Custom OTP infrastructure
-
----
-
-# 🏪 Seller Platform
-
-Veine is not only a marketplace for buyers.
-
-It also provides a dedicated seller ecosystem.
-
----
-
-## Seller Onboarding
-
-Suppliers can go through a structured onboarding process containing:
-
-* Business information
-* Company details
-* GSTIN
-* Contact information
-* Warehouse information
-* Business address
-* Seller verification data
 
 The architecture allows this to later become a proper **KYC and seller approval workflow**.
 
