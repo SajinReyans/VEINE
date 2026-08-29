@@ -1,33 +1,4 @@
 
-The architecture allows this to later become a proper **KYC and seller approval workflow**.
-
----
-
-# 📊 Seller Dashboard
-
-The seller dashboard provides a centralized view of marketplace activity.
-
-### Dashboard components
-
-* Revenue overview
-* Sales statistics
-* Product count
-* Inventory status
-* Low-stock alerts
-* Recent orders
-* Product performance
-* Revenue charts
-* Seller product table
-
-The dashboard is designed to eventually consume real-time information from the backend.
-
----
-
-# ➕ Advanced Product Creation System
-
-One of the major components of Veine is the **12-step product creation wizard**.
-
-The wizard divides product creation into manageable sections:
 
 ### 01 — Basic Information
 
