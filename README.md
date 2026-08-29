@@ -1,30 +1,4 @@
 
-* Authentication
-* Cart persistence
-* Orders
-* Inventory
-* Product creation
-* Order tracking
-
-No real transaction is performed.
-
----
-
-# 🔌 Backend Integration Roadmap
-
-The frontend can progressively be connected to:
-
-### Phase 1 — Core Backend
-
-* REST/GraphQL API
-* PostgreSQL
-* Authentication
-* User management
-* Seller management
-
-### Phase 2 — Marketplace
-
-* Product APIs
 * Product variants
 * Inventory
 * Seller listings
