@@ -6,25 +6,6 @@ Product name, category and basic identification.
 
 ### 02 — Media
 
-Product images and visual assets.
-
-### 03 — Description
-
-Detailed product description and material information.
-
-### 04 — Pricing
-
-Base price, selling price and pricing information.
-
-### 05 — Inventory
-
-Stock quantity, SKU and warehouse information.
-
-### 06 — Variants
-
-Size, finish, color and other product variations.
-
-### 07 — Specifications
 
 Technical characteristics and product dimensions.
 
