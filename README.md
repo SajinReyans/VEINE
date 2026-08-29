@@ -1,37 +1,6 @@
 #
 * Scroll-triggered content reveals
-* Animated category navigation
-* Room-based discovery
-* Featured collections
-* Trending materials
-* Popular finishes
-* Seller highlights
-* Pro
----
-
-The buyer can enter the required area and the system calculates the approximate number of boxes required based on the selected product's coverage.
-
----
-
-# 🛍️ Intelligent Cart
-
-The shopping cart is organized **seller-wise**, allowing buyers to clearly identify which products are coming from which supplier.
-
-It includes:
-
-* Quantity controls
-* Variant management
-* Seller grouping
-* Price calculation
-* Coverage-based quantity handling
-* Animated cart interactions
-* Automatic subtotal updates
-
-A production implementation can later extend this into **seller-wise shipping, delivery estimates, tax calculation, and invoice generation**.
-
----
-
-# 💳 Multi-Step Checkout
+* Animated category navigati
 
 The checkout experience is divided into multiple stages:
 
