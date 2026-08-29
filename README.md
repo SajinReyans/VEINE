@@ -1,32 +1,6 @@
 
 
-GST and other required marketplace information.
 
-### 
-* Border radius
-* Shadows
-* Motion tokens
-* Component states
-* Responsive breakpoints
-
----
-
-# ✨ Motion & Interaction System
-
-Animation is treated as part of the product experience rather than decoration.
-
-Reusable interactions include:
-
-* Number-rolling counters
-* Fly-to-cart animations
-* Product-card tilt
-* Glaze/sheeen hover effects
-* Animated filter transitions
-* Scroll reveals
-* SVG order timeline animations
-* Page transitions
-* Modal transitions
-* Wizard step transitions
 
 Animations are implemented using **Framer Motion**.
 
