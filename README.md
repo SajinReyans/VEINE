@@ -6,25 +6,7 @@
 * Trending materials
 * Popular finishes
 * Seller highlights
-* Promotional sections
-* Responsive layouts across desktop, tablet, and mobile
-
-The visual language is built around **marble, stone, ceramic, and architectural surfaces**, rather than a generic e-commerce aesthetic.
-
----
-
-## 🔎 Advanced Product Discovery
-
-The marketplace supports multi-dimensional product discovery through faceted filtering.
-
-
-The architecture is prepared for replacing client-side filtering with a dedicated search infrastructure such as:
-
-* Elasticsearch
-* OpenSearch
-* Meilisearch
-* Algolia
-
+* Pro
 ---
 
 # 🧱 Product Detail System
