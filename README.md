@@ -17,22 +17,6 @@ The visual language is built around **marble, stone, ceramic, and architectural 
 
 The marketplace supports multi-dimensional product discovery through faceted filtering.
 
-### Available filters
-
-* Product category
-* Material
-* Color
-* Finish
-* Size
-* Thickness
-* Pattern
-* Style
-* Application
-* Room type
-* Price range
-* Seller
-
-Filters update the result set dynamically and display the current number of matching products.
 
 The architecture is prepared for replacing client-side filtering with a dedicated search infrastructure such as:
 
