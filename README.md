@@ -1,35 +1,4 @@
 
-
-### Catalog
-
-* Products
-* Categories
-* Materials
-* Variants
-* Specifications
-* Images
-
-### Inventory
-
-* Stock
-* Warehouses
-* SKU
-* Stock movements
-* Low-stock thresholds
-
-### Commerce
-
-* Cart
-* Orders
-* Order items
-* Payments
-* Invoices
-* Refunds
-
-### Marketplace
-
-* Reviews
-* Ratings
 * Seller performance
 * Product visibility
 
