@@ -1,33 +1,4 @@
 
-* Seller fulfillment
-* Buyer notifications
-
----
-
-# 🛠️ Technology Stack
-
-### Frontend
-
-* React
-* TypeScript
-* Vite
-* Tailwind CSS v4
-* Framer Motion
-* React Router
-
-### Proposed Backend
-
-* Next.js
-* PostgreSQL
-* REST/GraphQL APIs
-* Redis
-* Dedicated search engine
-
-### Infrastructure
-
-* Object storage for product media
-* CDN for image delivery
-* Background workers
 * Monitoring and logging
 * Automated backups
 
