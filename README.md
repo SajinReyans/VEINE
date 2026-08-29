@@ -1,36 +1,4 @@
 
-
-
-
-Animations are implemented using **Framer Motion**.
-
----
-
-# 🧠 Proposed Production Architecture
-
-The current frontend is intentionally separated from the future backend architecture.
-
-A production implementation can evolve toward:
-
-```text
-                    VEINE PLATFORM
-                          │
-        ┌─────────────────┴─────────────────┐
-        │                                   │
-   BUYER APPLICATION                   SELLER APPLICATION
-        │                                   │
-        └─────────────────┬─────────────────┘
-                          │
-                     API LAYER
-                          │
-       ┌──────────────────┼──────────────────┐
-       │                  │                  │
-   PostgreSQL         Search Engine      Object Storage
-       │                  │                  │
-   Users              Products           Images
-   Sellers            Filters            Videos
-   Orders             Facets             Documents
-   Inventory          Search
    Reviews
        │
        ├──────── Payment Gateway
