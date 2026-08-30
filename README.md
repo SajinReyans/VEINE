@@ -4,21 +4,7 @@
 # ▶️ Running the Demo
 
 Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed by Vite, typically:
-
-```text
-http://localhost:5173
+73
 ```
 
 For a production build:
