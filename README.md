@@ -3,21 +3,6 @@
 
 ### Commerce
 
-* Cart
-* Orders
-* Order items
----
-
-# ⚡ Current Demo State
-
-This version is intentionally **frontend-only**.
-
-The following components currently use mock or in-memory data:
-
-* Products
-* Sellers
-* Reviews
-* Authentication
 * Cart persistence
 * Orders
 * Inventory
