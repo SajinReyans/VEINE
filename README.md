@@ -1,21 +1,5 @@
 
-# Veine — Intelligent Tiles, Marble & Natural Stone Marketplace
-
-Veine is a **full-scale, two-sided digital marketplace** designed for the tiles, marble, granite, quartz, and natural-stone industry. The platform connects **buyers, interior designers, contractors, builders, and material suppliers** through a unified commerce experience.
-
-The current implementation is a highly interactive **frontend prototype** that simulates the complete buyer-to-order and seller-to-listing journey using structured mock data and client-side state. It is designed as a foundation for connecting a production backend, database, authentication layer, search infrastructure, payment gateway, logistics system, and seller management platform.
-
----
-
-## 🚀 Platform Overview
-
-Veine is divided into two primary experiences:
-
-### 🛒 Buyer Marketplace
-
-The buyer experience focuses on product discovery, visual comparison, material selection, quantity calculation, purchasing, and order tracking.
-
-### 🏪 Seller Platform
+#
 
 The seller experience allows suppliers to onboard their businesses, manage inventory, create product listings, monitor sales, and maintain their marketplace presence.
 
