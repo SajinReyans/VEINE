@@ -3,23 +3,7 @@
 
 * Reviews
 
-### Phase 3 — Search
-
-Replace client-side filtering with a dedicated search service supporting:
-
-* Full-text search
-* Faceted search
-* Typo tolerance
-* Material filtering
-* Price filtering
-* Seller filtering
-* Relevance ranking
-
-### Phase 4 — Commerce
-
-* Persistent cart
-* Checkout API
-* Payment gateway
+### Phase 3 — 
 * Order creation
 * Invoice generation
 * Refund handling
