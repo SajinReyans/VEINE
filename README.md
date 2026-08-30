@@ -1,31 +1,5 @@
 
-                    VEINE PLATFORM
-                          │
-        ┌─────────────────┴─────────────────┐
-     
-       │
-       └──────── Logistics / Shipping
-```
 
----
-
-# 🗄️ Future Database Domains
-
-The backend can be structured around independent domains:
-
-### Identity
-
-* Users
-* Roles
-* Addresses
-* Authentication
-
-### Seller
-
-* Sellers
-* Businesses
-* Warehouses
-* Verification
 
 ### Catalog
 
