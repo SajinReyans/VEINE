@@ -1,17 +1,6 @@
 
 # 🛍️ Intelligent Cart
 
-The shopping cart is organized **seller-wise**, allowing buyers to clearly identify which products are coming from which supplier.
-
-
-6. Payment
-7. Order confirmation
-
-The flow is animated while maintaining the buyer's current state between steps.
-
-A production backend can later connect this layer to payment providers such as Razorpay, Stripe, or other region-specific gateways.
-
----
 
 # 📦 Order Tracking
 
