@@ -2,26 +2,7 @@
                     VEINE PLATFORM
                           │
         ┌─────────────────┴─────────────────┐
-        │                                   │
-   BUYER APPLICATION                   SELLER APPLICATION
-        │                                   │
-        └─────────────────┬─────────────────┘
-                          │
-                     API LAYER
-                          │
-       ┌──────────────────┼──────────────────┐
-       │                  │                  │
-   PostgreSQL         Search Engine      Object Storage
-       │                  │                  │
-   Users              Products           Images
-   Sellers            Filters            Videos
-   Orders             Facets             Documents
-   Inventory          Search
-   Reviews
-       │
-       ├──────── Payment Gateway
-       │
-       ├──────── Authentication
+     
        │
        └──────── Logistics / Shipping
 ```
