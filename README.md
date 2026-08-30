@@ -1,19 +1,5 @@
 
 #
-
-* Animated category navigation
-* Room-based discovery
-* Featured collections
-* Trending materials
-* Popular finishes
-* Seller highlights
-* Promotional sections
-* Responsive layouts across desktop, tablet, and mobile
-
-The visual language is built around **marble, stone, ceramic, and architectural surfaces**, rather than a generic e-commerce aesthetic.
-
----
-
 ## 🔎 Advanced Product Discovery
 
 The marketplace supports multi-dimensional product discovery through faceted filtering.
