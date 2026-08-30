@@ -1,22 +1,6 @@
 
 
 
-* Next.js
-* PostgreSQL
-* REST/GraphQL APIs
-* Redis
-* Dedicated search engine
-
-### Infrastructure
-
-* Object storage for product media
-* CDN for image delivery
-* Background workers
-* Monitoring and logging
-* Automated backups
-
----
-
 # ▶️ Running the Demo
 
 Install dependencies:
