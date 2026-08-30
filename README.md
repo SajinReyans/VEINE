@@ -1,19 +1,4 @@
 
-* Seller information
-* Reviews
-* Product specifications
-* Coverage information
-
-### 📐 Coverage Calculator
-
-Because tiles and slabs are normally purchased based on area rather than individual units, Veine includes a dedicated:
-
-**sq.ft → boxes calculator**
-
-The buyer can enter the required area and the system calculates the approximate number of boxes required based on the selected product's coverage.
-
----
-
 # 🛍️ Intelligent Cart
 
 The shopping cart is organized **seller-wise**, allowing buyers to clearly identify which products are coming from which supplier.
