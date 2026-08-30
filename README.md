@@ -1,21 +1,4 @@
 
-# 🛍️ Intelligent Cart
-
-
-# 📦 Order Tracking
-
-* Mobile number entry
-* OTP-style verification interface
-* User information
----
-
-# 🏪 Seller Platform
-
-Veine is not only a marketplace for buyers.
-
-It also provides a dedicated seller ecosystem.
-
----
 
 ## Seller Onboarding
 
