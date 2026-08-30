@@ -1,15 +1,4 @@
 
-
-
-# ▶️ Running the Demo
-
-* Persistent cart
-* Real inventory synchronization
-* Seller verification
-* Real order management
-* Logistics integration
-* Image storage/CDN
-* Notifications
 * Production security
 * Backend API
 * Database migrations
