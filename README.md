@@ -6,24 +6,6 @@
 * Cart
 * Orders
 * Order items
-* Payments
-* Invoices
-* Refunds
-
-### Marketplace
-
-* Reviews
-* Ratings
-* Seller performance
-* Product visibility
-
-### Logistics
-
-* Shipments
-* Tracking
-* Delivery status
-* Shipping zones
-
 ---
 
 # ⚡ Current Demo State
