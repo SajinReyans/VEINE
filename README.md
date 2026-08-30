@@ -1,22 +1,6 @@
 
 
 
-* Reviews
-
-### Phase 3 — 
-* Order creation
-* Invoice generation
-* Refund handling
-
-
-* TypeScript
-* Vite
-* Tailwind CSS v4
-* Framer Motion
-* React Router
-
-### Proposed Backend
-
 * Next.js
 * PostgreSQL
 * REST/GraphQL APIs
