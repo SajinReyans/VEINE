@@ -4,20 +4,7 @@
 # ▶️ Running the Demo
 
 Install dependencies:
-73
-```
-
-For a production build:
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
+`
 
 ---
 
