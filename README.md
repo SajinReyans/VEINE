@@ -1,21 +1,5 @@
 
 
-Size, finish, color and other product variations.
-
-### 07 — Specifications
-
-Technical characteristics and product dimensions.
-
-### 08 — Shipping
-
-Weight, packaging and shipping information.
-
-### 09 — Seller Information
-
-Supplier and business details.
-
-### 10 — Compliance
-
 GST and other required marketplace information.
 
 ### 11 — SEO
