@@ -3,23 +3,6 @@
 
 Veine uses a dedicated design system instead of relying purely on default component styling.
 
-The design language is inspired by:
-
-
----
-
-# ✨ Motion & Interaction System
-
-Animation is treated as part of the product experience rather than decoration.
-
-Reusable interactions include:
-
-* Number-rolling counters
-* Fly-to-cart animations
-* Product-card tilt
-* Glaze/sheeen hover effects
-* Animated filter transitions
-* Scroll reveals
 * SVG order timeline animations
 * Page transitions
 * Modal transitions
