@@ -4,22 +4,6 @@
 
 # 📦 Order Tracking
 
-Orders are represented through an animated state-based timeline:
-
-**Order Placed → Confirmed → Processing → Dispatched → In Transit → Delivered**
-
-The current demo simulates these states on the frontend.
-
-A production version can connect the timeline to real logistics events and seller fulfillment updates.
-
----
-
-# 🔐 Buyer Authentication
-
-The prototype includes a mobile-first authentication experience inspired by OTP-based login systems.
-
-The flow includes:
-
 * Mobile number entry
 * OTP-style verification interface
 * User information
