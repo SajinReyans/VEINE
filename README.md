@@ -1,24 +1,4 @@
 
-
-
-Veine uses a dedicated design system instead of relying purely on default component styling.
-
-* SVG order timeline animations
-* Page transitions
-* Modal transitions
-* Wizard step transitions
-
-Animations are implemented using **Framer Motion**.
-
----
-
-# 🧠 Proposed Production Architecture
-
-The current frontend is intentionally separated from the future backend architecture.
-
-A production implementation can evolve toward:
-
-```text
                     VEINE PLATFORM
                           │
         ┌─────────────────┴─────────────────┐
