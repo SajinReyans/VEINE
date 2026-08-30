@@ -5,22 +5,6 @@ Veine uses a dedicated design system instead of relying purely on default compon
 
 The design language is inspired by:
 
-* Natural stone
-* Marble surfaces
-* Architectural interiors
-* Premium material catalogs
-* Luxury construction materials
-
-The system defines:
-
-* Color tokens
-* Typography scale
-* Spacing system
-* Border radius
-* Shadows
-* Motion tokens
-* Component states
-* Responsive breakpoints
 
 ---
 
