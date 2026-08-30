@@ -7,19 +7,6 @@
 * Mobile number entry
 * OTP-style verification interface
 * User information
-* Delivery location capture
-* Account creation
-* Login state
-
-The current implementation is visual only and does not perform real authentication.
-
-A production version can integrate:
-
-* Firebase Authentication
-* Auth0
-* Supabase Auth
-* Custom OTP infrastructure
-
 ---
 
 # 🏪 Seller Platform
