@@ -1,20 +1,6 @@
 
 
 
-### Commerce
-
-* Cart persistence
-* Orders
-*
-* User management
-* Seller management
-
-### Phase 2 — Marketplace
-
-* Product APIs
-* Product variants
-* Inventory
-* Seller listings
 * Reviews
 
 ### Phase 3 — Search
