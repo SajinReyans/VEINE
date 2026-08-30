@@ -1,19 +1,4 @@
 
-# ➕ Advanced Product Creation System
-
-One of the major components of Veine is the **12-step product creation wizard**.
-
-The wizard divides product creation into manageable sections:
-
-### 01 — Basic Information
-
-Product name, category and basic identification.
-
-### 02 — Media
-
-Product images and visual assets.
-
-### 03 — Description
 
 Detailed product description and material information.
 
