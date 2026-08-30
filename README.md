@@ -1,21 +1,4 @@
 
-* Style
-* Application
-* Room type
-* Price range
-* Seller
-
-Filters update the result set dynamically and display the current number of matching products.
-
-The architecture is prepared for replacing client-side filtering with a dedicated search infrastructure such as:
-
-* Elasticsearch
-* OpenSearch
-* Meilisearch
-* Algolia
-
----
-
 # 🧱 Product Detail System
 
 Each product has a detailed product experience containing:
