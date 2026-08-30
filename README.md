@@ -1,20 +1,5 @@
 
 
-GST and other required marketplace information.
-
-### 11 — SEO
-
-Search-friendly product metadata.
-
-### 12 — Review
-
-Final validation before publishing.
-
-The wizard includes a **live product preview**, allowing sellers to see how their product will appear to buyers while they are creating the listing.
-
----
-
-# 🎨 Design System
 
 Veine uses a dedicated design system instead of relying purely on default component styling.
 
