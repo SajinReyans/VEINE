@@ -1,18 +1,4 @@
 
-#
-## 🔎 Advanced Product Discovery
-
-The marketplace supports multi-dimensional product discovery through faceted filtering.
-
-### Available filters
-
-* Product category
-* Material
-* Color
-* Finish
-* Size
-* Thickness
-* Pattern
 * Style
 * Application
 * Room type
