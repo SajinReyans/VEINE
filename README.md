@@ -1,20 +1,6 @@
 
 #
 
-The seller experience allows suppliers to onboard their businesses, manage inventory, create product listings, monitor sales, and maintain their marketplace presence.
-
-The architecture is designed so both experiences can eventually operate on a **shared product, seller, inventory, order, and transaction infrastructure**.
-
----
-
-# 🛒 Buyer Experience
-
-### Animated Marketplace Homepage
-
-The homepage acts as the primary discovery layer and includes:
-
-* Parallax material-based hero sections
-* Scroll-triggered content reveals
 * Animated category navigation
 * Room-based discovery
 * Featured collections
