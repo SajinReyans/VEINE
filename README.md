@@ -1,21 +1,4 @@
 
-* Monitoring and logging
-* Automated backups
-
----
-
-# ▶️ Running the Demo
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
 ```
 
 Open the local URL displayed by Vite, typically:
