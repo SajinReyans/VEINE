@@ -1,15 +1,4 @@
-
-# 🏪 Seller Platform
-
-Veine is not only a marketplace for buyers.
-
-It also provides a dedicated seller ecosystem.
-
----
-
-## Seller Onboarding
-
-Suppliers can go through a structured onboarding process containing:
+tructured onboarding process containing:
 
 * Business information
 * Company details
