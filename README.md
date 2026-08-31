@@ -1,20 +1,4 @@
-
----
-
-# 🔐 Buyer Authentication
-
-The prototype includes a mobile-first authentication experience inspired by OTP-based login systems.
-
-The flow includes:
-
-* Mobile number entry
-* OTP-style verification interface
-* User information
-* Delivery location capture
-* Account creation
-* Login state
-
-The current implementation is visual only and does not perform real authentication.
+d does not perform real authentication.
 
 A production version can integrate:
 
