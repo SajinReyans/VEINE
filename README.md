@@ -1,16 +1,4 @@
 
-* Luxury construction materials
-
-The system defines:
-
-* Color tokens
-* Typography scale
-* Spacing system
-* Border radius
-* Shadows
-* Motion tokens
-* Component states
-* Responsive breakpoints
 
 ---
 
