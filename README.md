@@ -1,20 +1,4 @@
-e
 
-* Reviews
-* Ratings
-* Seller performance
-* Product visibility
-
-### Logistics
-
-* Shipments
-* Tracking
-* Delivery status
-* Shipping zones
-
----
-
-# ⚡ Current Demo State
 
 This version is intentionally **frontend-only**.
 
