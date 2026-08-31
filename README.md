@@ -1,23 +1,4 @@
 
-
-# 🛍️ Intelligent Cart
-
-The shopping cart is organized **seller-wise**, allowing buyers to clearly identify which products are coming from which supplier.
-
-It includes:
-
-* Quantity controls
-* Variant management
-* Seller grouping
-* Price calculation
-* Coverage-based quantity handling
-* Animated cart interactions
-* Automatic subtotal updates
-
-A production implementation can later extend this into **seller-wise shipping, delivery estimates, tax calculation, and invoice generation**.
-
----
-
 # 💳 Multi-Step Checkout
 
 The checkout experience is divided into multiple stages:
