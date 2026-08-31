@@ -1,12 +1,4 @@
 
-# 💳 Multi-Step Checkout
-
-The checkout experience is divided into multiple stages:
-
-1. Customer information
-2. Delivery address
-3. Product review
-4. Shipping selection
 5. Order summary
 6. Payment
 7. Order confirmation
