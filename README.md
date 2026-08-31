@@ -1,15 +1,4 @@
 
-* Products
-* Categories
-* Materials
-* Variants
-* Specifications
-* Images
-
-### Inventory
-
-* Stock
-* Warehouses
 * SKU
 * Stock movements
 * Low-stock thresholds
