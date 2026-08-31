@@ -1,20 +1,4 @@
 
-* Product performance
-* Revenue charts
-* Seller product table
-
-The dashboard is designed to eventually consume real-time information from the backend.
-
----
-
-# ➕ Advanced Product Creation System
-
-One of the major components of Veine is the **12-step product creation wizard**.
-
-The wizard divides product creation into manageable sections:
-
-### 01 — Basic Information
-
 Product name, category and basic identification.
 
 ### 02 — Media
