@@ -1,16 +1,4 @@
 
-* Algolia
-
----
-
-# 🧱 Product Detail System
-
-Each product has a detailed product experience containing:
-
-* High-resolution image gallery
-* Image zoom
-* Product variants
-* Material information
 * Dimensions
 * Finish
 * Thickness
