@@ -1,16 +1,4 @@
 
-* Seller management
-
-### Phase 2 — Marketplace
-
-* Product APIs
-* Product variants
-* Inventory
-* Seller listings
-* Reviews
-
-### Phase 3 — Search
-
 Replace client-side filtering with a dedicated search service supporting:
 
 * Full-text search
