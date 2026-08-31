@@ -1,24 +1,4 @@
 
-5. Order summary
-6. Payment
-7. Order confirmation
-
-The flow is animated while maintaining the buyer's current state between steps.
-
-A production backend can later connect this layer to payment providers such as Razorpay, Stripe, or other region-specific gateways.
-
----
-
-# 📦 Order Tracking
-
-Orders are represented through an animated state-based timeline:
-
-**Order Placed → Confirmed → Processing → Dispatched → In Transit → Delivered**
-
-The current demo simulates these states on the frontend.
-
-A production version can connect the timeline to real logistics events and seller fulfillment updates.
-
 ---
 
 # 🔐 Buyer Authentication
