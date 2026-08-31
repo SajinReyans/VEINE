@@ -1,18 +1,4 @@
-
-* SKU
-* Stock movements
-* Low-stock thresholds
-
-### Commerce
-
-* Cart
-* Orders
-* Order items
-* Payments
-* Invoices
-* Refunds
-
-### Marketplace
+e
 
 * Reviews
 * Ratings
