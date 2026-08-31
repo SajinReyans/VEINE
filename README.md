@@ -1,20 +1,4 @@
 
-       │
-       ├──────── Payment Gateway
-       │
-       ├──────── Authentication
-       │
-       └──────── Logistics / Shipping
-```
-
----
-
-# 🗄️ Future Database Domains
-
-The backend can be structured around independent domains:
-
-### Identity
-
 * Users
 * Roles
 * Addresses
