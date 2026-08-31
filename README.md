@@ -1,14 +1,4 @@
-=
 
-The homepage acts as the primary discovery layer and includes:
-
-* Parallax material-based hero sections
-* Scroll-triggered content reveals
-* Animated category navigation
-* Room-based discovery
-* Featured collections
-* Trending materials
-* Popular finishes
 * Seller highlights
 * Promotional sections
 * Responsive layouts across desktop, tablet, and mobile
