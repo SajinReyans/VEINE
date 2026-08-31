@@ -3,15 +3,6 @@
 
 The current frontend is intentionally separated from the future backend architecture.
 
-A production implementation can evolve toward:
-
-```text
-                    VEINE PLATFORM
-                          │
-        ┌─────────────────┴─────────────────┐
-        │                                   │
-   BUYER APPLICATION                   SELLER APPLICATION
-        │                                   │
         └─────────────────┬─────────────────┘
                           │
                      API LAYER
