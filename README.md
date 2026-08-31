@@ -1,18 +1,4 @@
 
-* Users
-* Roles
-* Addresses
-* Authentication
-
-### Seller
-
-* Sellers
-* Businesses
-* Warehouses
-* Verification
-
-### Catalog
-
 * Products
 * Categories
 * Materials
