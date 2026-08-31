@@ -1,16 +1,3 @@
-tructured onboarding process containing:
-
-* Business information
-* Company details
-* GSTIN
-* Contact information
-* Warehouse information
-* Business address
-* Seller verification data
-
-The architecture allows this to later become a proper **KYC and seller approval workflow**.
-
----
 
 # 📊 Seller Dashboard
 
