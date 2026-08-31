@@ -1,21 +1,4 @@
 
-```
-
-Open the local URL displayed by Vite, typically:
-
-```text
-http://localhost:5173
-```
-
-For a production build:
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
 npm run preview
 ```
 
