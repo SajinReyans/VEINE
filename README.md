@@ -1,14 +1,6 @@
 
 * Dimensions
-* Finish
-* Thickness
-* Application
-* Pricing
-* Stock availability
-* Seller information
-* Reviews
-* Product specifications
-* Coverage information
+
 
 ### 📐 Coverage Calculator
 
