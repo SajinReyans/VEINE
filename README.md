@@ -1,14 +1,4 @@
 
-### Phase 5 — Logistics
-
-* Shipment creation
-* Tracking
-* Delivery updates
-* Seller fulfillment
-* Buyer notifications
-
----
-
 # 🛠️ Technology Stack
 
 ### Frontend
