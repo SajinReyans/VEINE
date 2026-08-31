@@ -1,23 +1,4 @@
 
-Replace client-side filtering with a dedicated search service supporting:
-
-* Full-text search
-* Faceted search
-* Typo tolerance
-* Material filtering
-* Price filtering
-* Seller filtering
-* Relevance ranking
-
-### Phase 4 — Commerce
-
-* Persistent cart
-* Checkout API
-* Payment gateway
-* Order creation
-* Invoice generation
-* Refund handling
-
 ### Phase 5 — Logistics
 
 * Shipment creation
