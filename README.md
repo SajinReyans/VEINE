@@ -1,14 +1,4 @@
 
-# 🛠️ Technology Stack
-
-### Frontend
-
-* React
-* TypeScript
-* Vite
-* Tailwind CSS v4
-* Framer Motion
-* React Router
 
 ### Proposed Backend
 
