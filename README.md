@@ -1,13 +1,3 @@
-d does not perform real authentication.
-
-A production version can integrate:
-
-* Firebase Authentication
-* Auth0
-* Supabase Auth
-* Custom OTP infrastructure
-
----
 
 # 🏪 Seller Platform
 
