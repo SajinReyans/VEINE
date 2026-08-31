@@ -1,14 +1,4 @@
 
-* Scroll reveals
-* SVG order timeline animations
-* Page transitions
-* Modal transitions
-* Wizard step transitions
-
-Animations are implemented using **Framer Motion**.
-
----
-
 # 🧠 Proposed Production Architecture
 
 The current frontend is intentionally separated from the future backend architecture.
