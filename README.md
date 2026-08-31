@@ -1,16 +1,4 @@
-ltering.
 
-### Available filters
-
-* Product category
-* Material
-* Color
-* Finish
-* Size
-* Thickness
-* Pattern
-* Style
-* Application
 * Room type
 * Price range
 * Seller
