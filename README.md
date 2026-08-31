@@ -1,16 +1,3 @@
-zation
-* Seller verification
-* Real order management
-* Logistics integration
-* Image storage/CDN
-* Notifications
-* Production security
-* Backend API
-* Database migrations
-* Monitoring
-* Backup and recovery
-
----
 
 # 🔮 Long-Term Vision
 
