@@ -1,16 +1,4 @@
 
-Product name, category and basic identification.
-
-### 02 — Media
-
-Product images and visual assets.
-
-### 03 — Description
-
-Detailed product description and material information.
-
-### 04 — Pricing
-
 Base price, selling price and pricing information.
 
 ### 05 — Inventory
