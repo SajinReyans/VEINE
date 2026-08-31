@@ -1,21 +1,4 @@
 
-# 🧠 Proposed Production Architecture
-
-The current frontend is intentionally separated from the future backend architecture.
-
-        └─────────────────┬─────────────────┘
-                          │
-                     API LAYER
-                          │
-       ┌──────────────────┼──────────────────┐
-       │                  │                  │
-   PostgreSQL         Search Engine      Object Storage
-       │                  │                  │
-   Users              Products           Images
-   Sellers            Filters            Videos
-   Orders             Facets             Documents
-   Inventory          Search
-   Reviews
        │
        ├──────── Payment Gateway
        │
