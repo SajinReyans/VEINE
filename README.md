@@ -1,17 +1,4 @@
-
-* Kitchens
-* Bathrooms
-* Bedrooms
-* Outdoor spaces
-* Commercial interiors
-* Office spaces
-* Hotel projects
-
-This allows users to search based on **design intent**, rather than simply searching for a product name.
-
----
-
-# 🔎 Advanced Material Search
+h
 
 Veine provides detailed filters specifically designed for architectural materials.
 
