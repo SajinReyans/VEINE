@@ -1,23 +1,4 @@
-h
-
-Veine provides detailed filters specifically designed for architectural materials.
-
-Users can filter products based on:
-
-* Category
-* Material
-* Color
-* Finish
-* Size
-* Thickness
-* Pattern
-* Style
-* Application
-* Room type
-* Price
-* Seller
-
-The search experience is designed to help buyers quickly move from thousands of products to a small collection of relevant materials.
+s designed to help buyers quickly move from thousands of products to a small collection of relevant materials.
 
 ---
 
