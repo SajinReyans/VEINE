@@ -1,17 +1,3 @@
-
-
-Enter the product name, category, and identification details.
-
-### 02 — Media
-
-Upload product images and visual assets.
-
-### 03 — Description
-
-Add product descriptions and material information.
-
-### 04 — Pricing
-
 Configure base price and selling price.
 
 ### 05 — Inventory
