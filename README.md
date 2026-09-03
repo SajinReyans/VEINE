@@ -1,22 +1,4 @@
 
-The buyer application is designed around **visual discovery and informed purchasing**.
-
-Instead of presenting products like a generic online store, Veine focuses on the visual and technical characteristics that matter when selecting architectural materials.
-
-### Key Features
-
-* Premium animated homepage
-* Material-based product discovery
-* Category browsing
-* Room-based discovery
-* Advanced product filtering
-* Product comparison
-* High-resolution product galleries
-* Material specifications
-* Pricing and availability
-* Seller information
-* Reviews and ratings
-* Coverage calculation
 * Intelligent cart
 * Multi-step checkout
 * Order tracking
