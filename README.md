@@ -1,47 +1,77 @@
+# VEINE — Architectural Materials Marketplace
 
+**Veine** is a specialized digital marketplace designed to connect buyers with suppliers of **marble, natural stone, tiles, ceramics, slabs, and architectural surface materials**.
 
-Veine is divided into two primary experiences:
+Unlike a traditional e-commerce platform, Veine is built specifically around the way architectural materials are discovered, compared, calculated, purchased, and supplied.
 
-### 🛒 Buyer Marketplace
-
-The buyer experience focuses on product discovery, visual comparison, material selection, quantity calculation, purchasing, and order tracking.
-
-### 🏪 Seller Platform
-
-The seller experience allows suppliers to onboard their businesses, manage inventory, create product listings, monitor sales, and maintain their marketplace presence.
-
-The architecture is designed so both experiences can eventually operate on a **shared product, seller, inventory, order, and transaction infrastructure**.
+The platform brings **buyers, sellers, designers, contractors, builders, and manufacturers** into a unified digital ecosystem.
 
 ---
 
-# 🛒 Buyer Experience
+## 🎯 Our Vision
 
-### Animated Marketplace Homepage
+Veine aims to transform the traditional architectural-material purchasing experience into a **digital, transparent, and intelligent marketplace**.
 
-The homepage acts as the primary discovery layer and includes:
+Buyers can discover materials visually, compare products, calculate required quantities, understand specifications, and place orders.
 
-* Parallax material-based hero sections
-* Scroll-triggered content reveals
-* Animated category navigation
+Sellers can manage their products, inventory, orders, business information, and marketplace presence from a dedicated platform.
+
+> **Discover materials. Compare possibilities. Build better spaces.**
+
+---
+
+# 🛒 Buyer Marketplace
+
+The buyer application is designed around **visual discovery and informed purchasing**.
+
+Instead of presenting products like a generic online store, Veine focuses on the visual and technical characteristics that matter when selecting architectural materials.
+
+### Key Features
+
+* Premium animated homepage
+* Material-based product discovery
+* Category browsing
 * Room-based discovery
-* Featured collections
-* Trending materials
-* Popular finishes
-* Seller highlights
-* Promotional sections
-* Responsive layouts across desktop, tablet, and mobile
-
-The visual language is built around **marble, stone, ceramic, and architectural surfaces**, rather than a generic e-commerce aesthetic.
+* Advanced product filtering
+* Product comparison
+* High-resolution product galleries
+* Material specifications
+* Pricing and availability
+* Seller information
+* Reviews and ratings
+* Coverage calculation
+* Intelligent cart
+* Multi-step checkout
+* Order tracking
 
 ---
 
-## 🔎 Advanced Product Discovery
+# 🏠 Discover by Space
 
-The marketplace supports multi-dimensional product discovery through faceted filtering.
+Buyers can explore materials based on the space where they will be used.
 
-### Available filters
+Examples include:
 
-* Product category
+* Living rooms
+* Kitchens
+* Bathrooms
+* Bedrooms
+* Outdoor spaces
+* Commercial interiors
+* Office spaces
+* Hotel projects
+
+This allows users to search based on **design intent**, rather than simply searching for a product name.
+
+---
+
+# 🔎 Advanced Material Search
+
+Veine provides detailed filters specifically designed for architectural materials.
+
+Users can filter products based on:
+
+* Category
 * Material
 * Color
 * Finish
@@ -51,308 +81,286 @@ The marketplace supports multi-dimensional product discovery through faceted fil
 * Style
 * Application
 * Room type
-* Price range
+* Price
 * Seller
 
-Filters update the result set dynamically and display the current number of matching products.
-
-The architecture is prepared for replacing client-side filtering with a dedicated search infrastructure such as:
-
-* Elasticsearch
-* OpenSearch
-* Meilisearch
-* Algolia
+The search experience is designed to help buyers quickly move from thousands of products to a small collection of relevant materials.
 
 ---
 
-# 🧱 Product Detail System
+# 🧱 Detailed Product Pages
 
-Each product has a detailed product experience containing:
+Every product receives a dedicated product page containing important visual and technical information.
 
-* High-resolution image gallery
+### Product information includes:
+
+* High-resolution images
 * Image zoom
-* Product variants
-* Material information
+* Material type
 * Dimensions
-* Finish
 * Thickness
+* Finish
+* Pattern
 * Application
-* Pricing
-* Stock availability
+* Available variants
+* Price
+* Stock
 * Seller information
 * Reviews
-* Product specifications
+* Technical specifications
 * Coverage information
 
-### 📐 Coverage Calculator
+The goal is to allow buyers to make purchasing decisions without depending entirely on offline product catalogs.
 
-Because tiles and slabs are normally purchased based on area rather than individual units, Veine includes a dedicated:
+---
 
-**sq.ft → boxes calculator**
+# 📐 Smart Coverage Calculator
 
-The buyer can enter the required area and the system calculates the approximate number of boxes required based on the selected product's coverage.
+Architectural materials are often purchased according to **area rather than individual pieces**.
+
+Veine therefore provides a built-in coverage calculator.
+
+A buyer can enter the required area in square feet, select a product, and receive an estimated number of boxes required based on the product's coverage.
+
+### Example
+
+**Required area:** 850 sq.ft
+
+**Product coverage:** 15 sq.ft / box
+
+**Required quantity:** approximately 57 boxes
+
+This reduces manual calculations and helps buyers estimate their material requirements before purchasing.
 
 ---
 
 # 🛍️ Intelligent Cart
 
-The shopping cart is organized **seller-wise**, allowing buyers to clearly identify which products are coming from which supplier.
+The Veine cart is organized according to sellers.
 
-It includes:
+If a buyer purchases products from multiple suppliers, the cart clearly separates the products by seller.
 
-* Quantity controls
-* Variant management
-* Seller grouping
-* Price calculation
-* Coverage-based quantity handling
-* Animated cart interactions
-* Automatic subtotal updates
+### Cart capabilities
 
-A production implementation can later extend this into **seller-wise shipping, delivery estimates, tax calculation, and invoice generation**.
+* Seller-wise grouping
+* Quantity control
+* Product variants
+* Coverage-based quantity
+* Automatic price calculation
+* Subtotal calculation
+* Animated interactions
+
+The architecture can later support seller-specific shipping, delivery estimates, taxes, and invoices.
 
 ---
 
-# 💳 Multi-Step Checkout
+# 💳 Seamless Checkout
 
-The checkout experience is divided into multiple stages:
+Veine uses a structured multi-step checkout experience.
 
-1. Customer information
-2. Delivery address
-3. Product review
-4. Shipping selection
-5. Order summary
-6. Payment
-7. Order confirmation
+### Checkout Flow
 
-The flow is animated while maintaining the buyer's current state between steps.
+**Customer Information → Address → Product Review → Shipping → Order Summary → Payment → Confirmation**
 
-A production backend can later connect this layer to payment providers such as Razorpay, Stripe, or other region-specific gateways.
+The checkout system is designed to keep the buyer's information and cart state available throughout the process.
+
+Future production integrations can connect the checkout to payment providers and regional payment systems.
 
 ---
 
 # 📦 Order Tracking
 
-Orders are represented through an animated state-based timeline:
+After purchasing, buyers can follow their order through a visual timeline.
+
+### Order Lifecycle
 
 **Order Placed → Confirmed → Processing → Dispatched → In Transit → Delivered**
 
-The current demo simulates these states on the frontend.
-
-A production version can connect the timeline to real logistics events and seller fulfillment updates.
-
----
-
-# 🔐 Buyer Authentication
-
-The prototype includes a mobile-first authentication experience inspired by OTP-based login systems.
-
-The flow includes:
-
-* Mobile number entry
-* OTP-style verification interface
-* User information
-* Delivery location capture
-* Account creation
-* Login state
-
-The current implementation is visual only and does not perform real authentication.
-
-A production version can integrate:
-
-* Firebase Authentication
-* Auth0
-* Supabase Auth
-* Custom OTP infrastructure
+This provides buyers with a simple way to understand the current status of their purchase.
 
 ---
 
 # 🏪 Seller Platform
 
-Veine is not only a marketplace for buyers.
+Veine provides a complete seller environment rather than treating suppliers as simple product uploaders.
 
-It also provides a dedicated seller ecosystem.
+Sellers can manage their marketplace presence from a dedicated dashboard.
 
----
+### Seller capabilities
 
-## Seller Onboarding
-
-Suppliers can go through a structured onboarding process containing:
-
-* Business information
-* Company details
-* GSTIN
-* Contact information
-* Warehouse information
-* Business address
-* Seller verification data
-
-The architecture allows this to later become a proper **KYC and seller approval workflow**.
+* Business onboarding
+* Seller verification
+* Product management
+* Inventory management
+* Product creation
+* Order management
+* Sales monitoring
+* Revenue tracking
+* Product performance
+* Low-stock monitoring
 
 ---
 
 # 📊 Seller Dashboard
 
-The seller dashboard provides a centralized view of marketplace activity.
+The seller dashboard acts as the central control panel for the business.
 
-### Dashboard components
+It provides information such as:
 
-* Revenue overview
+* Total revenue
 * Sales statistics
 * Product count
 * Inventory status
-* Low-stock alerts
+* Low-stock products
 * Recent orders
 * Product performance
-* Revenue charts
-* Seller product table
+* Revenue trends
+* Marketplace activity
 
-The dashboard is designed to eventually consume real-time information from the backend.
+The architecture is designed so this information can eventually be powered by real-time backend data.
 
 ---
 
-# ➕ Advanced Product Creation System
+# ➕ 12-Step Product Creation System
 
-One of the major components of Veine is the **12-step product creation wizard**.
-
-The wizard divides product creation into manageable sections:
+Veine provides sellers with a structured **12-step product creation wizard**.
 
 ### 01 — Basic Information
 
-Product name, category and basic identification.
+Enter the product name, category, and identification details.
 
 ### 02 — Media
 
-Product images and visual assets.
+Upload product images and visual assets.
 
 ### 03 — Description
 
-Detailed product description and material information.
+Add product descriptions and material information.
 
 ### 04 — Pricing
 
-Base price, selling price and pricing information.
+Configure base price and selling price.
 
 ### 05 — Inventory
 
-Stock quantity, SKU and warehouse information.
+Enter SKU, stock quantity, and warehouse information.
 
 ### 06 — Variants
 
-Size, finish, color and other product variations.
+Configure different sizes, colors, finishes, and variations.
 
 ### 07 — Specifications
 
-Technical characteristics and product dimensions.
+Add technical specifications, dimensions, and material characteristics.
 
 ### 08 — Shipping
 
-Weight, packaging and shipping information.
+Enter packaging, weight, and shipping information.
 
 ### 09 — Seller Information
 
-Supplier and business details.
+Connect the listing with supplier and business information.
 
 ### 10 — Compliance
 
-GST and other required marketplace information.
+Provide GST and marketplace compliance information.
 
 ### 11 — SEO
 
-Search-friendly product metadata.
+Configure search-friendly product metadata.
 
 ### 12 — Review
 
-Final validation before publishing.
+Review the complete listing before publishing.
 
-The wizard includes a **live product preview**, allowing sellers to see how their product will appear to buyers while they are creating the listing.
+A **live product preview** allows sellers to see how the final listing will appear to customers.
 
 ---
 
-# 🎨 Design System
+# 🎨 Premium Design Language
 
-Veine uses a dedicated design system instead of relying purely on default component styling.
+Veine is designed around the visual characteristics of the architectural-material industry.
 
-The design language is inspired by:
+The interface takes inspiration from:
 
 * Natural stone
-* Marble surfaces
+* Marble
+* Ceramic surfaces
 * Architectural interiors
 * Premium material catalogs
 * Luxury construction materials
 
-The system defines:
+The design system includes consistent:
 
-* Color tokens
-* Typography scale
-* Spacing system
-* Border radius
+* Typography
+* Spacing
+* Colors
 * Shadows
-* Motion tokens
+* Borders
+* Responsive layouts
 * Component states
-* Responsive breakpoints
+* Animations
 
 ---
 
-# ✨ Motion & Interaction System
+# ✨ Motion-Driven Experience
 
-Animation is treated as part of the product experience rather than decoration.
+Animation is used to make the marketplace feel interactive and premium.
 
-Reusable interactions include:
+The platform can include:
 
-* Number-rolling counters
+* Scroll animations
+* Product-card interactions
 * Fly-to-cart animations
-* Product-card tilt
-* Glaze/sheeen hover effects
-* Animated filter transitions
-* Scroll reveals
-* SVG order timeline animations
+* Animated counters
+* Filter transitions
+* Product hover effects
 * Page transitions
-* Modal transitions
-* Wizard step transitions
+* Order timeline animations
+* Checkout transitions
+* Product wizard transitions
 
-Animations are implemented using **Framer Motion**.
+The objective is not to add animation everywhere, but to use motion to make important interactions feel natural and responsive.
 
 ---
 
-# 🧠 Proposed Production Architecture
+# 🧠 Platform Architecture
 
-The current frontend is intentionally separated from the future backend architecture.
-
-A production implementation can evolve toward:
+Veine is designed as a two-sided marketplace with a shared backend.
 
 ```text
                     VEINE PLATFORM
                           │
-        ┌─────────────────┴─────────────────┐
-        │                                   │
-   BUYER APPLICATION                   SELLER APPLICATION
-        │                                   │
-        └─────────────────┬─────────────────┘
+             ┌────────────┴────────────┐
+             │                         │
+       BUYER PLATFORM            SELLER PLATFORM
+             │                         │
+             └────────────┬────────────┘
                           │
-                     API LAYER
+                       API LAYER
                           │
-       ┌──────────────────┼──────────────────┐
-       │                  │                  │
-   PostgreSQL         Search Engine      Object Storage
-       │                  │                  │
-   Users              Products           Images
-   Sellers            Filters            Videos
-   Orders             Facets             Documents
-   Inventory          Search
-   Reviews
-       │
-       ├──────── Payment Gateway
-       │
-       ├──────── Authentication
-       │
-       └──────── Logistics / Shipping
+        ┌─────────────────┼─────────────────┐
+        │                 │                 │
+    PostgreSQL       Search Engine     Object Storage
+        │                 │                 │
+     Users             Products           Images
+     Sellers           Filters            Videos
+     Orders            Search            Documents
+     Inventory
+     Reviews
+        │
+        ├── Authentication
+        ├── Payment Gateway
+        └── Logistics
 ```
+
+This architecture allows both applications to operate on shared product, seller, inventory, order, and transaction data.
 
 ---
 
-# 🗄️ Future Database Domains
+# 🗄️ Core Data Domains
 
-The backend can be structured around independent domains:
+The future backend can be divided into multiple domains.
 
 ### Identity
 
@@ -375,13 +383,13 @@ The backend can be structured around independent domains:
 * Materials
 * Variants
 * Specifications
-* Images
+* Media
 
 ### Inventory
 
 * Stock
 * Warehouses
-* SKU
+* SKUs
 * Stock movements
 * Low-stock thresholds
 
@@ -389,7 +397,6 @@ The backend can be structured around independent domains:
 
 * Cart
 * Orders
-* Order items
 * Payments
 * Invoices
 * Refunds
@@ -410,171 +417,80 @@ The backend can be structured around independent domains:
 
 ---
 
-# ⚡ Current Demo State
+# 🚀 Future Development
 
-This version is intentionally **frontend-only**.
+Veine can evolve from a marketplace prototype into a complete **B2B and B2C architectural-material commerce platform**.
 
-The following components currently use mock or in-memory data:
+Future capabilities can include:
 
-* Products
-* Sellers
-* Reviews
-* Authentication
-* Cart persistence
-* Orders
-* Inventory
-* Product creation
-* Order tracking
-
-No real transaction is performed.
-
----
-
-# 🔌 Backend Integration Roadmap
-
-The frontend can progressively be connected to:
-
-### Phase 1 — Core Backend
-
-* REST/GraphQL API
-* PostgreSQL
-* Authentication
-* User management
-* Seller management
-
-### Phase 2 — Marketplace
-
-* Product APIs
-* Product variants
-* Inventory
-* Seller listings
-* Reviews
-
-### Phase 3 — Search
-
-Replace client-side filtering with a dedicated search service supporting:
+### Intelligent Search
 
 * Full-text search
-* Faceted search
-* Typo tolerance
-* Material filtering
-* Price filtering
-* Seller filtering
+* Faceted filtering
+* Typo correction
+* Material-based search
 * Relevance ranking
 
-### Phase 4 — Commerce
+### Advanced Commerce
 
-* Persistent cart
-* Checkout API
-* Payment gateway
-* Order creation
-* Invoice generation
-* Refund handling
+* Real payment processing
+* Automated invoices
+* Refund management
+* Persistent carts
+* Seller-specific shipping
 
-### Phase 5 — Logistics
+### Logistics
 
 * Shipment creation
-* Tracking
+* Live tracking
 * Delivery updates
 * Seller fulfillment
 * Buyer notifications
 
----
+### Intelligent Recommendations
 
-# 🛠️ Technology Stack
+Veine can eventually recommend materials based on:
 
-### Frontend
-
-* React
-* TypeScript
-* Vite
-* Tailwind CSS v4
-* Framer Motion
-* React Router
-
-### Proposed Backend
-
-* Next.js
-* PostgreSQL
-* REST/GraphQL APIs
-* Redis
-* Dedicated search engine
-
-### Infrastructure
-
-* Object storage for product media
-* CDN for image delivery
-* Background workers
-* Monitoring and logging
-* Automated backups
+* Previous searches
+* User preferences
+* Room type
+* Material type
+* Budget
+* Design style
+* Previous purchases
 
 ---
 
-# ▶️ Running the Demo
+# 🌍 Long-Term Vision
 
-Install dependencies:
+Veine's long-term goal is to become more than an online store.
 
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed by Vite, typically:
-
-```text
-http://localhost:5173
-```
-
-For a production build:
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
-
----
-
-# 📌 Current Limitations
-
-This is currently an **interaction and architecture prototype**, not a production marketplace.
-
-The major missing components are:
-
-* Persistent database
-* Real authentication
-* Payment processing
-* Server-side search
-* Persistent cart
-* Real inventory synchronization
-* Seller verification
-* Real order management
-* Logistics integration
-* Image storage/CDN
-* Notifications
-* Production security
-* Backend API
-* Database migrations
-* Monitoring
-* Backup and recovery
-
----
-
-# 🔮 Long-Term Vision
-
-Veine can evolve from a simple product marketplace into a **specialized digital commerce infrastructure for the architectural-material industry**.
-
-The long-term platform can support:
+It can evolve into a **digital infrastructure layer for the architectural-material industry**, connecting:
 
 **Manufacturers → Distributors → Sellers → Designers → Contractors → Builders → Homeowners**
 
-with product discovery, specification, quotation, purchasing, inventory, logistics, and seller management operating inside one ecosystem.
+The platform can eventually bring **discovery, specification, quotation, purchasing, inventory, logistics, and seller management** into one ecosystem.
+
+---
+
+## 💡 The Problem Veine Solves
+
+Architectural-material purchasing is traditionally fragmented.
+
+Buyers often have to:
+
+* Visit multiple suppliers
+* Compare physical samples
+* Manually calculate quantities
+* Ask sellers for specifications
+* Check availability separately
+* Compare prices manually
+* Coordinate delivery independently
+
+Veine brings these activities into a **single digital marketplace**.
+
+---
+
+## 🚀 Veine in One Sentence
+
+> **Veine is a specialized digital marketplace that makes discovering, comparing, calculating, purchasing, and managing architectural materials simple for buyers and sellers.**
