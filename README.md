@@ -1,17 +1,4 @@
 
-* Intelligent cart
-* Multi-step checkout
-* Order tracking
-
----
-
-# 🏠 Discover by Space
-
-Buyers can explore materials based on the space where they will be used.
-
-Examples include:
-
-* Living rooms
 * Kitchens
 * Bathrooms
 * Bedrooms
