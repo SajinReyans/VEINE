@@ -1,22 +1,4 @@
-s designed to help buyers quickly move from thousands of products to a small collection of relevant materials.
 
----
-
-# 🧱 Detailed Product Pages
-
-Every product receives a dedicated product page containing important visual and technical information.
-
-### Product information includes:
-
-* High-resolution images
-* Image zoom
-* Material type
-* Dimensions
-* Thickness
-* Finish
-* Pattern
-* Application
-* Available variants
 * Price
 * Stock
 * Seller information
