@@ -1,15 +1,4 @@
-Configure base price and selling price.
 
-### 05 — Inventory
-ristics.
-
-### 08 — Shipping
-
-Enter packaging, weight, and shipping information.
-
-### 09 — Seller Information
-
-Connect the listing with supplier and business information.
 
 ### 10 — Compliance
 
