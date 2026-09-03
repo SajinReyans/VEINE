@@ -1,19 +1,4 @@
 
-* Price
-* Stock
-* Seller information
-* Reviews
-* Technical specifications
-* Coverage information
-
-The goal is to allow buyers to make purchasing decisions without depending entirely on offline product catalogs.
-
----
-
-# 📐 Smart Coverage Calculator
-
-Architectural materials are often purchased according to **area rather than individual pieces**.
-
 Veine therefore provides a built-in coverage calculator.
 
 A buyer can enter the required area in square feet, select a product, and receive an estimated number of boxes required based on the product's coverage.
