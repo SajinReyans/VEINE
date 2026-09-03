@@ -1,21 +1,4 @@
 
-### 12 — Review
-
-Review the complete listing before publishing.
-
-A **live product preview** allows sellers to see how the final listing will appear to customers.
-
----
-
-# 🎨 Premium Design Language
-
-Veine is designed around the visual characteristics of the architectural-material industry.
-
-The interface takes inspiration from:
-
-* Natural stone
-* Marble
-* Ceramic surfaces
 * Architectural interiors
 * Premium material catalogs
 * Luxury construction materials
