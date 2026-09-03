@@ -1,20 +1,4 @@
 
-# 🏪 Seller Platform
-
-Veine provides a complete seller environment rather than treating suppliers as simple product uploaders.
-
-Sellers can manage their marketplace presence from a dedicated dashboard.
-
-### Seller capabilities
-
-* Business onboarding
-* Seller verification
-* Product management
-* Inventory management
-* Product creation
-* Order management
-* Sales monitoring
-* Revenue tracking
 * Product performance
 * Low-stock monitoring
 
