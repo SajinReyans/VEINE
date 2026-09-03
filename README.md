@@ -1,14 +1,4 @@
-# VEINE — Architectural Materials Marketplace
 
-**Veine** is a specialized digital marketplace designed to connect buyers with suppliers of **marble, natural stone, tiles, ceramics, slabs, and architectural surface materials**.
-
-Unlike a traditional e-commerce platform, Veine is built specifically around the way architectural materials are discovered, compared, calculated, purchased, and supplied.
-
-The platform brings **buyers, sellers, designers, contractors, builders, and manufacturers** into a unified digital ecosystem.
-
----
-
-## 🎯 Our Vision
 
 Veine aims to transform the traditional architectural-material purchasing experience into a **digital, transparent, and intelligent marketplace**.
 
