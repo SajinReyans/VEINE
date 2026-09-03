@@ -1,18 +1,4 @@
 
-* Product performance
-* Low-stock monitoring
-
----
-
-# 📊 Seller Dashboard
-
-The seller dashboard acts as the central control panel for the business.
-
-It provides information such as:
-
-* Total revenue
-* Sales statistics
-* Product count
 * Inventory status
 * Low-stock products
 * Recent orders
