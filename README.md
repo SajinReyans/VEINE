@@ -1,16 +1,5 @@
 
 
-
-* Product variants
-* Coverage-based quantity
-* Automatic price calculation
-* Subtotal calculation
-* Animated interactions
-
-The architecture can later support seller-specific shipping, delivery estimates, taxes, and invoices.
-
----
-
 # 💳 Seamless Checkout
 
 Veine uses a structured multi-step checkout experience.
