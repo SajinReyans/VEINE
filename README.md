@@ -1,14 +1,4 @@
 
-After purchasing, buyers can follow their order through a visual timeline.
-
-### Order Lifecycle
-
-**Order Placed → Confirmed → Processing → Dispatched → In Transit → Delivered**
-
-This provides buyers with a simple way to understand the current status of their purchase.
-
----
-
 # 🏪 Seller Platform
 
 Veine provides a complete seller environment rather than treating suppliers as simple product uploaders.
