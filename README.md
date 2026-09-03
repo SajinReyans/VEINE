@@ -1,20 +1,4 @@
 
-* Inventory status
-* Low-stock products
-* Recent orders
-* Product performance
-* Revenue trends
-* Marketplace activity
-
-The architecture is designed so this information can eventually be powered by real-time backend data.
-
----
-
-# ➕ 12-Step Product Creation System
-
-Veine provides sellers with a structured **12-step product creation wizard**.
-
-### 01 — Basic Information
 
 Enter the product name, category, and identification details.
 
