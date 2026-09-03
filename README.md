@@ -1,13 +1,4 @@
 
-
-### 10 — Compliance
-
-Provide GST and marketplace compliance information.
-
-### 11 — SEO
-
-Configure search-friendly product metadata.
-
 ### 12 — Review
 
 Review the complete listing before publishing.
