@@ -1,15 +1,4 @@
 
-Veine therefore provides a built-in coverage calculator.
-
-A buyer can enter the required area in square feet, select a product, and receive an estimated number of boxes required based on the product's coverage.
-
-### Example
-
-**Required area:** 850 sq.ft
-
-**Product coverage:** 15 sq.ft / box
-
-**Required quantity:** approximately 57 boxes
 
 This reduces manual calculations and helps buyers estimate their material requirements before purchasing.
 
