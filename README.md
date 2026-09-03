@@ -1,17 +1,4 @@
 
-
-Veine aims to transform the traditional architectural-material purchasing experience into a **digital, transparent, and intelligent marketplace**.
-
-Buyers can discover materials visually, compare products, calculate required quantities, understand specifications, and place orders.
-
-Sellers can manage their products, inventory, orders, business information, and marketplace presence from a dedicated platform.
-
-> **Discover materials. Compare possibilities. Build better spaces.**
-
----
-
-# 🛒 Buyer Marketplace
-
 The buyer application is designed around **visual discovery and informed purchasing**.
 
 Instead of presenting products like a generic online store, Veine focuses on the visual and technical characteristics that matter when selecting architectural materials.
