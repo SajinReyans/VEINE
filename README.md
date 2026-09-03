@@ -1,21 +1,4 @@
 
-
-# 💳 Seamless Checkout
-
-Veine uses a structured multi-step checkout experience.
-
-### Checkout Flow
-
-**Customer Information → Address → Product Review → Shipping → Order Summary → Payment → Confirmation**
-
-The checkout system is designed to keep the buyer's information and cart state available throughout the process.
-
-Future production integrations can connect the checkout to payment providers and regional payment systems.
-
----
-
-# 📦 Order Tracking
-
 After purchasing, buyers can follow their order through a visual timeline.
 
 ### Order Lifecycle
