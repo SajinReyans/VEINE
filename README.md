@@ -1,16 +1,7 @@
 Configure base price and selling price.
 
 ### 05 — Inventory
-
-Enter SKU, stock quantity, and warehouse information.
-
-### 06 — Variants
-
-Configure different sizes, colors, finishes, and variations.
-
-### 07 — Specifications
-
-Add technical specifications, dimensions, and material characteristics.
+ristics.
 
 ### 08 — Shipping
 
