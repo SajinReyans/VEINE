@@ -1,19 +1,6 @@
 
 
-This reduces manual calculations and helps buyers estimate their material requirements before purchasing.
 
----
-
-# 🛍️ Intelligent Cart
-
-The Veine cart is organized according to sellers.
-
-If a buyer purchases products from multiple suppliers, the cart clearly separates the products by seller.
-
-### Cart capabilities
-
-* Seller-wise grouping
-* Quantity control
 * Product variants
 * Coverage-based quantity
 * Automatic price calculation
